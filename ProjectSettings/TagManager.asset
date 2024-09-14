@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - SmallBeat
+  - Wall
+  - Next
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Wall
+  - TextAnim
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Tilemap
+    uniqueID: 4201170207
+    locked: 0
+  - name: Enemy
+    uniqueID: 2305300541
+    locked: 0
+  - name: Player
+    uniqueID: 2761990957
+    locked: 0
+  - name: UI
+    uniqueID: 1763137253
+    locked: 0
+  - name: Priority
+    uniqueID: 2321902155
+    locked: 0

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 6f7f72653ee31f94eaaa96e20a2039a5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - unclickedTile: {fileID: 21300000, guid: 5ad2fd3a513f3ff43ac910c1b61ae8c1, type: 3}
+  - flaggedTile: {fileID: 21300000, guid: da83b9f77876d1e4db803276af90b3f1, type: 3}
+  - mineTile: {fileID: 21300000, guid: cbef833c20168fc4d9a158e240ad312a, type: 3}
+  - incorrectFlagTile: {fileID: 21300000, guid: 3f009a7eaa46e314ab16f529c8812a18, type: 3}
+  - mineHitTile: {fileID: 21300000, guid: cbef833c20168fc4d9a158e240ad312a, type: 3}
+  - gameManager: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

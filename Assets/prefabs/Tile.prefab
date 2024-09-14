@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8234959945235991596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4496355704107712201}
+  - component: {fileID: 2197251570689959590}
+  - component: {fileID: 8490219820125514740}
+  - component: {fileID: 1493861715684923063}
+  m_Layer: 0
+  m_Name: Tile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4496355704107712201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234959945235991596}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2197251570689959590
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234959945235991596}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 5ad2fd3a513f3ff43ac910c1b61ae8c1, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &8490219820125514740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234959945235991596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7f72653ee31f94eaaa96e20a2039a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unclickedTile: {fileID: 21300000, guid: 5ad2fd3a513f3ff43ac910c1b61ae8c1, type: 3}
+  flaggedTile: {fileID: 21300000, guid: da83b9f77876d1e4db803276af90b3f1, type: 3}
+  numberedTiles:
+  - {fileID: 21300000, guid: c7dec254ec6f1b546b3a2deb03491c68, type: 3}
+  - {fileID: 21300000, guid: 5b9eb74d9cfd3144c908128cfabc5ffe, type: 3}
+  - {fileID: 21300000, guid: fc799a6ab7ff68545aabd0c2fdfcce9f, type: 3}
+  - {fileID: 21300000, guid: 84af429c0a299bf42b9531bf96536742, type: 3}
+  - {fileID: 21300000, guid: 4fc7e79b801dba84da7d2e92dff0e6eb, type: 3}
+  - {fileID: 21300000, guid: 13be101125ecbfb4aab8f2f8c3a655de, type: 3}
+  - {fileID: 21300000, guid: f8b9de9940fb52e4ca6052a3fec0e4cf, type: 3}
+  - {fileID: 21300000, guid: cd28693b1a8ca594eb0f88af257005cb, type: 3}
+  - {fileID: 21300000, guid: 9fb7e4ab1cbad24499bb4585f87310a2, type: 3}
+  mineTile: {fileID: 21300000, guid: cbef833c20168fc4d9a158e240ad312a, type: 3}
+  incorrectFlagTile: {fileID: 21300000, guid: 3f009a7eaa46e314ab16f529c8812a18, type: 3}
+  mineHitTile: {fileID: 21300000, guid: cbef833c20168fc4d9a158e240ad312a, type: 3}
+  gameManager: {fileID: 0}
+  playerTransform: {fileID: 0}
+  flagged: 0
+  active: 1
+  isMine: 0
+  mineRevealed: 0
+  mineCount: 0
+  flagAddAnimPrefab: {fileID: 7996304386221725332, guid: 70608d5edd070bf42b6a6db0b414224e, type: 3}
+  flagRemoveAnimPrefab: {fileID: 7133933816554866606, guid: 1ead9fb88d176a64fbfee4003382c65b, type: 3}
+  mineExplodeSoundTrigger:
+    m_PersistentCalls:
+      m_Calls: []
+  revealSuccessSoundTrigger:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!61 &1493861715684923063
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234959945235991596}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
